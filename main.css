@@ -79,7 +79,7 @@ ul {padding: 0px;margin: 0px;}
 
 .result-list > li:hover {background-color: rgb(247, 247, 247);transition: 0.2s ease; border-radius: 10px;}
 
-.search {margin: auto; margin-top: 40vh;border-radius: 10px;padding-bottom: 60px;
+.search {margin: auto; margin-top: 40vh;border-radius: 10px;padding-bottom: 60px;}
 
 .search-items > h3 {font-size: 11px;font-weight: normal;text-align: left; }
 
