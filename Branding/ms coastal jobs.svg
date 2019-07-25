@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #40529e;
+        font-family: "DIN Condensed";
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 48px;
+      }
+    </style>
+    <image id="image" width="129" height="179" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACzCAYAAACuEn/2AAAExUlEQVR4nO2dQXLbMAxFoUwO1jN018t11zP0eO5MOkkVNZJJEQBB4L1NMpmMbZlPHxBJ2du37z+lAI/BQ9wyv0UvAV6DJQ8FAUTpMcLymvS4LAZt/5ipkiF7EkADGSXwiO5U5SGTBFr1v+f5UkA5GCOFCBkaw9SduwckwTjeZUidrJeILZxd5pVLlqpJkHoGsJfVJeg9a7cGAVr+R+O1hKFSEvQO7F0ZloPGEMpIQA9wAUnwnPQCLSnB718/OLMVWX1TSWtHPiqN1/NMgXIASNBA+hnEKhKwyHQBSXBNCXkqSdC72ndnSnpJSAJYfil5u3HGXu0aLtk7VN5PIDSMf6EcQIokeI/0WWf18lPYJMEYKdYwMknAotJNsiWBlwipdh1lLAfWA5QucegJIPU8geZVAx9SAblBAkACQILyCBKAIAEIEoAgAQgSgBjPGGbatRPpWNRnL0kCQAJAgtUwWciy7Alm7/3LhOkqJkkALhKw9y841W8+iY7LCUQ5iI1LP+WVBDSJ/biVUe8koD8ICOUgJq4nCxLAlKsD+oNzppTLmUmwv1PoeNcQvYMjEeYJzgZ///tj9zcSRJlVJotGUkJLmrTpVOFrcuEJXB0AEgASlEeQAAQJQJAABAlAkAAECUCQAAQJQJAABAlAkAAkuQQsIzdCEgASABKUR5AABAlAkAAECUCQAAQJQJAABAlAkKCLtGsRSABIAEhQHrkpwYO1+vB0jVGPBMcHRoT4NMnQIwGfI5SUVgkoAWtzOXY0hvk4G/DTE7lFAhIgOaNJUE2Q6Md76/VdSUAfkJP/xpSeAJAgET2p/el/zyTofUDKxnp8jBlJAHwRVgKGU/iYBCPRTklYj7cxoxysjcqJhwTwSQINq7hSWI8HjeGaqJ5olIM1Ud3bYSUBJcEO9ZL7yoAB5QBMJSBh9DF5T62vDvbfZ+hJNgFNj4dyAEiwAOap5jVZ9OC+hS5cy5lnEtAoBsW7HCBCQOgJwKwn4Cvuxzj2T6bvpYUE2+En6LynZiJYSDBrgkiSp8/+/WQpuTjqoiMBnEqwKcR51mieeVxuC0jb4feRJ/bsDzL3A6PHdtlPHJOAjr4g7xJoxP8VLO3Gea7tON4vDYOvJYfldvQZknk8p/VzvMmQ4eqABnSQGRJkukElRbK1SmDRL4zKEEUmzddgcUxPx47JIh20buGbQs/agdUixv4xn1kbuYzc2T0V4nh6F5Csl4hX7xWWfP3ckJqX5lSiJ4BbEljPLsI4XeMzkgSIkATKAQxLQBrE4lapJglARQLSIAa3x0ErCbhiWBjtcoAI/gyfgPQEYCIBpcEPlffZMgkQwQ7VE41yAOariO+2coeyDibp6rWUjAxjmJZW73JAnxCQGT0BIrTjcqU1a2eR2b32SXA9USJsL6Nf+MeUlOQSMQ7TymSkjaYVS0SI/ijqbuPMQoRrjCkHsMR9B66f6WdA+EviFW8+iS7FcvMglANdlpwIy3Ab2uwmcvkZ0Gz3InpOPKWZ/qYcQNq7ki0TId0CWPYk0BywtHsnKQdQQgKNszf1Hogqn1Ryt0cosQGmWjlY8oOlrOEzi84psw2uYmPIHscDXB18TSlRqkpwNcjlkqJyEnw12CVLBeWgOiLyBwU1ocRedi2PAAAAAElFTkSuQmCC"/>
+  </defs>
+  <text id="MS_COASTAL_JOBS" data-name="MS COASTAL JOBS" class="cls-1" transform="translate(253.89 499.535) scale(1.462)">MS COASTAL JOBS</text>
+  <image id="Rectangle_1" data-name="Rectangle 1" x="251" y="512" width="521" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgkAAAAFCAYAAADPP3+qAAAANklEQVRoge3WMQEAIAzEwAdlaEAgVukOlXAnIVPG2ucGAOAxBQEAOiYBAGiZBACgZRIAgF+SAt7KAjmndWnlAAAAAElFTkSuQmCC"/>
+  <text id="Your_Local_Job_Search" data-name="Your Local Job Search" class="cls-2" x="316.757" y="563.562">Your Local Job Search</text>
+  <use x="98" y="411" xlink:href="#image"/>
+  <use id="Layer_2_copy" data-name="Layer 2 copy" x="792" y="411" xlink:href="#image"/>
+</svg>

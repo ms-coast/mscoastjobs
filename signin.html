@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MS Coastal Jobs</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="shortcut icon" type="image/png" href="Branding/favicon.png" />
+</head>
+
+<body style="background-color: white;background-image: url()">
+    <nav id="header">
+        <div class="logo-container"><img class="logo" src="Branding/ms coastal jobs.png" id="colored-l"><img class="logo " id="white-l" src="Branding/ms coastal jobs.png"></div>
+                <ul>
+                    <li><a href="index.html" style="color: black;">Home</a></li>
+                    <li><a href="policies.html" style="color: black;">Policies</a></li>
+            <li><a href="https://www.mscoast.org/contact-us" target="_blank" style="color: black;">Contact Us</a></li>
+                </ul>
+                <div class="login-options">
+                    <a href="createpost.html"><button style="background-color: white; color: black;border: solid; border-width: 1px;">Post A Job</button></a>
+                    <a href="Pricing.html"><button style="color: black;">Sign Up</button></a>
+                    <a href="signin.html"><button style="color: black;">Log In</button></a>
+                </div>
+            </nav>
+    <div class="spacer" style="height: 200px;"></div>
+   
+<div class="page-header-container">
+    <h3>
+Login
+    </h3>
+    <p>
+
+    </p>
+</div>
+<div class="log-in-container">
+    <form class="log-in" action="https://pub31.bravenet.com/passwd/show.php" method="post" target="_top">
+      <input type="hidden" name="usernum" value="2600626585">
+     
+     <input type="text" name="uname" placeholder="Username">
+<input type="password" name="passwd" placeholder="Password*">
+<div class="button-container" style="margin-top: 20px;"><button type="submit">Login</button></div>
+     <a style="float: right;margin-top:-25px;" href="pricing.html">Not a member?</a>
+      
+    </form>
+  </div>
+
+
+    <footer>
+        <div class="footer-text-container">
+            <h5>Developed By Jacoby Broadnax & Jayden Magee</h5>
+        </div>
+
+    </footer>
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll > 300) {
+                $("#mySearch").addClass("active");
+            } else {
+                $("#mySearch").removeClass("active");
+            }
+        });
+
+    </script>
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll > 200) {
+                $("#header").addClass("scrolled");
+            } else {
+                $("#header").removeClass("scrolled");
+            }
+        });
+
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/6.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>

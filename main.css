@@ -1,0 +1,236 @@
+nav {position: absolute; left: 0px; top: 0px;  width: 100%; background-color: transparent;z-index:101;height: 75px;}
+
+body {margin: 0px; padding: 0px; font-family:roboto, sans-serif;background-image: url(images/shipping\ container.webp); background-repeat: no-repeat; background-size: cover;background-attachment: fixed; scroll-behavior: smooth }
+
+html {scroll-behavior: smooth}
+
+a {text-decoration: none; }
+
+.errorMessage {display: none; }
+   
+::-webkit-scrollbar-thumb {background: gray; border-radius:10px;transition: 0.2s ease;}
+
+
+nav > ul {float: left;margin-top: -57px;padding: 10px;margin-left:30px;}
+
+nav > ul > li {display: inline-block; text-decoration: none;margin-left: 20px;font-family: roboto, sans-serif; font-size: 16px;color: white; }
+
+.login-options {position: absolute; right: 30px; top:0px; }
+
+.login-options > a > button {background-color: transparent; border: none; width: 85px;height: 35px; border-radius: 0px; margin-left: 7px;border-radius: 5px;margin-top: 20px;color: white;transition: 0.2s ease; }
+
+.login-options > a > button:hover {font-size: 15px; cursor: pointer}
+
+.login-options > button {background-color: transparent; border: none; width: 85px;height: 35px; border-radius: 0px; margin-left: 7px;border-radius: 5px;margin-top: 20px;color: white;transition: 0.2s ease;}
+
+.login-options > button {font-size: 15px; cursor: pointer}
+
+.spacer {width: 100%; height: 75px;background-color: transparent; }
+
+.logo-container {margin-top: 50px;margin: auto; width: 450px;height: 75px;;}
+
+.logo {width: 450px; height: 125px; object-fit:contain;margin-top: 0px;}
+
+nav > ul > li > a {text-decoration: none;color: rgb(218, 218, 218); font-size: 14px;background-color: transparent; padding-top:10px;padding-bottom: 10px;padding-left: 45px;padding-right: 15px;margin-left: -35px;border-radius: 7px;transition: 0.2s ease;}
+
+nav > ul > li > a:hover {font-size: 15px;color: white;}
+
+.card-divider {width: 100%; height: 1px; background-color: lightgray;margin-left: -15px; }
+
+#header {transition: 0.5s ease; }
+
+#header.scrolled {box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);background-color: white;}
+
+.active-btn {color: white; font-size: 15px;}
+
+/*--------------------------------------------Search-------------------------------------------------------*/
+.search-wrapper {position: sticky; top: 0px;z-index:60;}
+
+.sort-options {border-radius: 40px;border: solid;border-color: lightgray; border-width: 1px;margin-left: 10px;}
+
+.sort-elements {margin-left: -5px;}
+
+.result-list {display: none;margin-bottom: 60px;margin: auto; animation-duration: 200ms;padding-right: 30px;padding-left: 30px;padding-top: 10px;margin-top: 0px;border-radius: 5px;background-color: white;width: 530px;}
+
+
+.sort-options:focus {outline: none; }
+
+.search-input {width: 590px ;height:45px; border-radius:5px; border: none;background-color: rgba(255, 255, 255, 0.76);transition: 0.3s ease;padding-left: 30px;text-align: left;color:black;}
+
+.empty-result {margin: auto; width: 30px;}
+
+ul {padding: 0px;margin: 0px;}
+
+.search-input-container {margin: auto; width: 590px;position: sticky; top: 50px;}
+
+.empty-result > h3 {position: absolute;z-index: -5;;text-align: center;font-weight: normal;font-size: 14px;padding-top: 15px;padding-bottom: 10px;width: 99%;margin-top: 0px;border-radius: 0px 0px 10px 10px;padding-left: 50px;margin-left: -40px;left: 0px;color: white;;}
+
+.search-input:focus {background-color: white;outline: none;}
+
+.search-input:focus + .result-list {display: none;}
+
+.search-icon {background-color: transparent; float: right;padding-left:12px; padding-right: 12px;;padding-top: 6px;padding-bottom: 6px;color: black;border-radius: 5px;position:relative;z-index: 50;margin-top: -40px;margin-right: 5px;}
+
+.search-icon:hover {cursor: pointer}
+
+.search-items > img {width: 50px; height: 50px;object-fit: cover; float: left;border-radius: 50px;padding-right: 15px;}
+
+.result-list > li{padding-bottom: 10px;list-style-type: none;transition: 0.2s ease;background-color: white;padding:7px;padding-right: 10px; padding-left: 10px;}
+
+.result-list > li:hover {background-color: rgb(247, 247, 247);transition: 0.2s ease; border-radius: 10px;}
+
+.search {margin: auto; margin-top: 40vh;border-radius: 10px;padding-bottom: 60px;
+
+.search-items > h3 {font-size: 11px;font-weight: normal;text-align: left; }
+
+.search-items > h4 {font-weight: normal ;margin-top: -10px;text-align: left;}
+
+.search-items > p {font-weight: normal; font-size: 12px;margin-top: -20px; width: 545px;}
+
+.search-items {text-decoration: none; color: black; text-decoration: none;list-style-type: none;margin: auto; width: 545px;padding: 5px;}
+
+.search-items:hover {background-color:lightgray}
+
+.micro-spacer {background-color:transparent; width: 150px; height: 7px;}
+
+#mySearch {transition: 0.5s ease;}
+
+#mySearch.active {background-color: white;border: solid;border-width: 1px; border-color: lightgray; height: 40px;
+}
+
+#myMenu {transition: 0.2s ease;}
+
+#myMenu.scroll {width: 50%;background-color: white;padding-left:40px;}
+
+#white-l {display: none;}
+
+#white-l.ms {display: block;}
+
+#colored-l {display: block}
+
+#colored-l.sm {display: none;margin-top: -50px;}
+/*-------------------------------------------------------Hero Section----------------------------------------------------------------*/
+
+.hero-text {position: fixed; left: 50px; ;width: 600px;z-index: -1;}
+
+.hero-text > h1 {font-size:60px;color: white;font-weight: 410;}
+
+.hero-text > a > p {color: white;margin-top: -35px;font-weight: normal;}
+
+.hero-text > a > p:hover {cursor: pointer;}
+
+#hero-text { transition: 0.3s ease; }
+
+#hero-text.scr {opacity: 0; }
+
+/*-------------------------------------------------------Footer----------------------------------------------------------------*/
+
+footer {position: fixed; bottom: 0px; left: 0px;width: 100%;z-index: 5;;;}
+
+.footer-text-container {margin: auto; width: 350px;color: white;transition: 0.3s ease;}
+
+.footer-text-container > h5 {font-weight: normal;transition: 0.3s ease;text-align: center;color: rgb(192, 192, 192)}
+
+.footer-text-container > h5 > a {color: rgb(192, 192, 192);transition: 0.5s ease;}
+
+.footer-text-container > h5 > a:hover {opacity: 1;cursor: pointer;color: white;font-size: 15px;}
+
+/*--------------------------------------------------------Post-----------------------------------------------------------------------------*/
+
+.post-frame {width: 100%;position: fixed; left: 0px; top: 120px;border: none; ;height:700px;}
+
+.post-input-left {background-color: white; border: solid;border-width: 1px;border-color: lightgray;width: 100%;height: 32px;padding-left: 15px;font-size: 12px;border-radius: 5px;margin-top: 16px;border-radius: 7px; }
+
+.post-input-right {background-color: white; border: solid;border-width: 1px;border-color: lightgray;width: 100%;height: 32px;padding-left: 15px;font-size: 12px;border-radius: 5px;margin-top: 16px;border-radius: 7px; }
+
+.input-forths {width:27%;margin-left: 10px;}
+
+.form-container {margin: auto; width:1190px;}
+
+.left-sect {float: left;width: 540px;}
+
+.right-sect {float:left;width: 540px;padding-left: 40px;}
+
+.post-form > .right-sect > textarea {width:100%;height: 85px; border: solid; border-width: 1px; border-color: lightgray; margin-top: 16px;border-radius: 7px;width: 545px;
+    padding-top: 10px;padding-left: 10px;font-family: roboto,sans-serif;font-size: 14px; }
+
+.post-form > .left-sect > textarea {width:100%;height: 85px; border: solid; border-width: 1px; border-color: lightgray; margin-top: 16px;border-radius: 7px;width: 545px; padding-top: 10px;padding-left: 10px;font-family: roboto,sans-serif;font-size: 14px;height: 60px; }
+
+.button-container > button {background-color: black; color: white; width: 140px;height: 40px;border-radius: 7px;margin-top: 5px;border: none;}
+
+.sub-label {font-size: 14px;color: rgb(104, 104, 104); }
+
+.post-menu {border: solid; border-width: 1px; border-color: lightgray;height: 25px;border-radius: 5px; margin-top: 10px;margin-bottom: 10px;}
+/*------------------------------------------------------Job Menu--------------------------------------------------------------------------*/
+.job-menu {    position: absolute;;
+  ; background-color: green;;width: 0px; height: 100%;opacity: 0;transition: 0.5s ease;transition-delay: 150ms;z-index: 200;top: 0px;;}
+
+.job-button:focus ~ .job-menu {width:249%;height: 300%;opacity: 1;   }
+
+.job-wrapper {margin: auto; width: 623px;background-color: white;border-radius: 5px;margin-bottom: 150px;margin-top: 120px;position: relative; z-index: 150px; }
+
+.job-element-container {
+    width: 100%;;;background-color: rgba(0, 0, 0, 0.58);;height:100%;border-radius: 12px;display: none;position: fixed; left: 0px;top: 0px;padding-top:  75px;z-index:100;;overflow-x: scroll;p}
+
+    .job-element-container::-webkit-scrollbar{width: 0px;}
+
+.job-top {margin-top: 0px;width: 100.5%;margin-left: -1px;padding: 20px;padding-bottom: 80px;padding-top: 10px;}
+
+.job-button {background-color: white; border: solid; border-width: 1px; border-color: lightgray;border-radius: 4px;}
+
+.job-banner {position: absolute; top: 0px; left: 0px;height: 360px;width: 100%;object-fit: cover;z-index: -1;filter: brightness(0.7);}
+
+.job-logo {width:170px; height: 210px;background-color: white; border-radius: 10px;float: left;margin-top: 160px;margin-left: 50px;box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.12);object-fit: contain;}
+
+.close-button {color: black; margin-top: 20px;float: right;margin-right: 15px;;}
+
+.job-top > h3 {font-size:16px;color: black;font-weight: bold;margin-bottom: -7px;float: left;}
+
+.job-top > p {font-size: 12px;color: black;position: absolute;margin-top: 37px;;}
+
+.job-top > h4 {color: black;; font-size: 12px;float:left;margin-top: 19px;margin-left: 10px;font-weight: normal;}
+
+.job-buttons > a > button {color: black;margin-left: 20px;background-color: white; border:solid; border-color: lightgray; border-width: 1px;border-radius: 5px; }
+
+.job-buttons {margin-top: 35px;}
+
+.job-description {margin: auto; width: 580px;}
+
+.job-description > p {text-align: left;line-height: 20px;font-size: 13px;margin-top:5px }
+
+.job-description > label {text-align: center; width: 100%;margin-top: 0px;}
+
+.vertical-divider {width: 1px; height: 16px;float: left;background-color: lightgray;margin-left: 10px;margin-top: 16px;}
+
+.job-links {margin-top: 15px;margin: auto; width:540px;padding: 20px;}
+
+.job-links > a {margin-left: 10px;font-size: 12.5px; color: black; }
+
+/*-------------------------------------------------------------------------------Login Page--------------------------------------------------------------------------------*/
+
+.log-in > input{width: 100%; background-color: white; margin-top: 20px;height: 44px; border: solid; border-width: 1px; border-color:lightgray; border-radius: 7px;padding-left: 35px;}
+
+.log-in > input:focus {outline: none;}
+
+.log-in-container {margin: auto; width:350px;margin-top: -15px;}
+
+.log-in-container > button {}
+
+.page-header-container {margin: auto; width:350px;}
+
+.page-header-container > h3 {font-size: 30px;text-align: center;}
+
+.log-in-container > 
+
+/*-------------------------------------------------------------------------------Apply Form--------------------------------------------------------------------------------*/
+.file-upload-container {position:fixed; left: 50px;z-index: 170;}
+
+.file-upload-container > iframe {width: 500px; height: 600px;}
+
+#upload {display: none;}
+
+#upload:target {display: block}
+
+.input-styling {height: 35px; border-radius: 5px; border: solid; border-width: 1px;border-color: lightgray;padding-left: 16px;}
+
+.apply-form {margin: auto; width: 560px;}

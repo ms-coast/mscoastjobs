@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MS Coastal Jobs | Create Job</title>
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.0/auth0-spa-js.production.js"></script>
+    <link rel="shortcut icon" type="image/png" href="Branding/favicon.png" />
+    <script language="Javascript" type="text/javascript"
+        src="https://pub31.bravenet.com/passwd/jsnorightclick.php?usernum=2600626585"></script>
+    <script language="Javascript" type="text/javascript"
+        src="https://pub31.bravenet.com/passwd/jsverify.php?usernum=2600626585"></script>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=https://pub31.bravenet.com/passwd/verify.php?usernum=2600626585" />
+
+<body style="display:none;">
+    </noscript>
+
+
+    </head>
+
+    <body style="background-color: white;background-image: url()">
+        <nav id="header">
+            <div class="logo-container"><img class="logo" src="Branding/ms coastal jobs.png" id="colored-l"><img class="logo " id="white-l" src="Branding/ms coastal jobs.png"></div>
+                    <ul>
+                        <li><a href="https://www.mscoastaljobs.com/index-loggedin.html" style="color: black;">Home</a></li>
+                        <li><a href="policies.html" style="color: black;">Policies</a></li>
+            <li><a href="https://www.mscoast.org/contact-us" target="_blank" style="color: black;">Contact Us</a></li>
+                    </ul>
+                    <div class="login-options">
+                            
+                        <a href="createpost.html"><button style="background-color: white; color: black;border: solid; border-width: 1px;">Post A Job</button></a>
+                        <button  onclick="top.location.href = 'https://pub31.bravenet.com/passwd/logout.php?usernum=2600626585';" target="_top">Logout</button>
+                    </div>
+                </nav>
+        <div class="spacer" style="height: 200px;"></div>
+
+        <iframe class="post-frame" src="https://www.mscoastaljobs.com/postmanager.html"></iframe>
+
+        <footer>
+            <div class="footer-text-container">
+                <h5>Developed By Jacoby Broadnax & Jayden Magee</h5>
+            </div>
+
+        </footer>
+        <script>
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 300) {
+                    $("#mySearch").addClass("active");
+                } else {
+                    $("#mySearch").removeClass("active");
+                }
+            });
+
+        </script>
+        <script>
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 200) {
+                    $("#header").addClass("scrolled");
+                } else {
+                    $("#header").removeClass("scrolled");
+                }
+            });
+
+        </script>
+
+    </body>
+
+</html>
